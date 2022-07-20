@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header h1 {
+    color: #F50057;
+}
+
+header p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header span{
+    color: gray;
+}
+
+.icon{
+    background-color:rgb(235, 220, 220);
+    border-radius: 25px;
+    padding: 8px 8px;
+    color: #F50057;
+    height:fit-content ;
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.library{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.fav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.order-his{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.mess{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.authorss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.sett{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: grey;
+    padding: 30px 20px;
+    width: 15%;
+}
+.contained{
+    gap: 2vw;
+    width: 100%;
+}
+.div-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.div-left div{
+    width: fit-content;
+    padding: 10px;
+   
+}
+.div-left div:hover{
+    background-color:rgb(255, 233, 238);
+        color: #F50057;
+    box-shadow: 0 5px 5px rgb(255, 233, 238);
+}
+
+
+.contt{
+    background-image: url(photo-1513185041617-8ab03f83d6c5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    opacity: 10;
+    height:300px;
+   
+    
+}
+
+.body-contt{
+    display: flex;
+    padding: 10px 0;
+}
+
+.contt h3{
+    color: #F50057;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    padding: 50px 10px ;
+}
+
+.contt h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: oblique;
+    font-size: xx-large; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butt1{
+    background-color: #F50057;
+    color:rgb(235, 220, 220);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.butt2{
+    background-color:rgb(235, 220, 220);
+    color:#F50057;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.bestpopular p{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.bestpopular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 40px;
+}
+
+.bpop {
+    background-color: white;
+    color: #F50057 ;
+    border-color: #F50057;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.author{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+ .contt{
+    display: flex;
+    flex-direction: column;
+ }
+.contt button{
+    width: fit-content;
+}
+.contt div{
+    display: flex;
+
+}
+.contt div{
+gap: 1vw;
+    height: 80%;
+    align-items: flex-end;
+    padding: 40px 38px;
+    
+
+}
+
+.img-card {
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 15px 2px #e280a244;
+   
+}
+
+.card-group {
+    display: flex;
+    gap: 25px;
+}
+
+.card-group div {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.authornom {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+}
+
+ .title{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.sall {
+    color:#F50057;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.card-group button{
+    background-color:#F50057 ;
+    color:rgb(235, 220, 220) ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px ;
+    width: 100%;
+    align-self: center;
+
+}
+
+.card-group {
+    padding-top: 20px ;
+}
+
+.authors {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hr {
+    width: 50px;
+    height: 50px;
+}
+.contained{
+    display: flex   ;
+    background-color: #fff7fa ;
+    border: 2px solid #f27ba5c8;
+    padding: 30px;
+}
+.auther-item{
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+}
+.auther-item i{
+    color: red;
+    font-size: 5px;
+}
+hr{
+    width: 200px;
+    color: rgb(195, 189, 189);
+}
+
+.titt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+a{
+    color: #F50057;
+    text-decoration: none;
+}
+
+.extt{
+    color: gray;
+}
+.body-contt{
+    display: flex;
+ 
+   
+}   
+.authors{
+  border-radius: 25px;
+  box-shadow: 0PX 5px 10px #f500561c;
+  padding: 2vw;
+  gap: 10px;
+  background-color: white;
+
+}
+.div-center{
+    justify-self: center;
+    width:  70%;
+     
+}
+.book img{
+    width: 40px;
+    height: 50px;
+}
+.info img{
+    width: 25px;
+    height: 25px;
+}
+.book{
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 10px;
+    padding: 13px;
+}
+.free-books{
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 25px;
+    box-shadow: 0PX 5px 10px #f500561c;
+    padding: 2vw;
+    gap: 10px;
+    background-color: white;
+  
+}
+.book .info{    
+    display: flex;
+    justify-self: self;
+    /* align-self: flex-end; */
+    align-items: center;
+
+}
+.book i{
+    align-self: flex-end;
+
+}
+.book-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info {
+    display: flex;
+    gap: 10PX;
+}
+
+.iconn{
+    background-color:rgba(235, 220, 220, 0.785);
+    border-radius: 50px;
+    padding: 5px;
+    color: #F50057;
+    font-size: 8px;
+}
+.dropdown-container{
+    position: relative;
+    padding: 2px 0;
+}
+.dropdown{
+   
+    width: 250px;
+    padding: 8px    ;
+    border: 1px  solid #F50057;
+    position: absolute;
+    background-color: white;
+}
+.added{
+
+    padding: 8px 0;
+}
+.added img{
+    display: none;
+}
+.added .add{
+    display: none;
+}

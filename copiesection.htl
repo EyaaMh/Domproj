@@ -1,0 +1,90 @@
+<!--service section start -->
+    <div class="skills">
+        <div class="title">
+            <h2>My Skills </h2>
+        </div>
+        
+        <SECtion>
+        <div class="box">
+            <div class="card">
+                <h5>📌Web development</h5>
+              <div class="pra">
+                <p>I'm practicing web development.
+                    <ul>
+                        <li> HTML</li>
+                        <li>CSS|CSSLayout</li>
+                        <li>Javascript</li>
+                        <li>DOM</li>
+                        <li>Git|GitHub</li>
+                    </ul>
+                </p>
+             
+                    <button type="button">Read More</button>
+       
+               
+              </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="card">
+                <h5>💡 Entrepreneurship</h5>
+              <div class="pra">
+                <p>I am a project leader, I have two entrepreneurial projects.
+                    <ul>
+                        <ol>I did a lot of training in entrepreneurship.</ol>
+                        <li>how to create a startup?</li>
+                        <li>Shape Your Idea</li>
+                        <li>Build your Business Plan</li>
+                        <li>Centred Human Value Propoition</li>
+                        <li>Leadership Visionnaire</li>
+                        <li>Go to market strategy</li>
+                        <li>Social Media Management</li>
+                        <li>UX Design</li>
+                        
+                    </ul>
+                </p>
+               
+                    <button type="button">Read More</button>
+          
+               
+              </div>
+            </div>
+        </div>
+
+   
+        <div class="box">
+            <div class="card">
+                <h5>🧠 Softskills Trainer</h5>
+              <div class="pra">
+                <p>
+                    I am a personal development trainer, I do training for adults and even if for children  as well as team building with clubs and associations .
+                </p>
+            
+                    <button type="button">Read More</button>
+           
+               
+              </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="card">
+                <h5>🤝Volunteer</h5>
+               <div class="pra">
+                   <p>
+                    I'm very sociable and active in community life. I'm glad to be member LEO Club and Red Croissant . Also , I'm member IEEE EPI and Enactus EPI . 
+                    I have my international membership .
+                   </p>
+                 
+                    <button type="button">Read More</button>
+          
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </SECtion>
